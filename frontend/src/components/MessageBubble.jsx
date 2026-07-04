@@ -5,8 +5,6 @@ import {
   Avatar,
 } from "@mui/material";
 
-import SmartToyIcon from "@mui/icons-material/SmartToy";
-import PersonIcon from "@mui/icons-material/Person";
 
 function MessageBubble({ role, text }) {
   const isUser = role === "user";
